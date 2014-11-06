@@ -36,7 +36,7 @@
 }
 - (IBAction)feedback:(id)sender {
 	
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:stephen@xzien.com"]];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:youremail@whatever.com"]];
 	
 }
 - (IBAction)exportCall:(id)sender {
